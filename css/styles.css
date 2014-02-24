@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0066cc;
+}
+
+#show-contact {
+  display: none;
+}
