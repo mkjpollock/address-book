@@ -1,12 +1,31 @@
-ul {
-  list-style-type: none;
+body {
+  background: url(triangles.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1800px;
 }
 
-.contact {
-  cursor: pointer;
-  color: #0066cc;
+h1, h2, h3 {
+  color: #fff;
 }
 
-#show-contact {
-  display: none;
+.form-group {
+  color: #ff6;
+}
+
+#isTriangle {
+  font-size: 36px;
+  color: #ff6;
+}
+
+#eqTriangle {
+  font-size: 36px;
+  color: #ff6;
+}
+
+#scTriangle {
+  font-size: 36px;
+  color: #ff6;
 }

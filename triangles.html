@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Types!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Types</h1>
+
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Check to see what kind of triangle you have:</h2>
+          <form id="new-triangle">
+            <div class="form-group">
+              <label for="first-side">First side</label>
+              <input type="text" class="form-control" id="first-side">
+            </div>
+            <div class="form-group">
+              <label for="second-side">Second side</label>
+              <input type="text" class="form-control" id="second-side">
+            </div>
+            <div class="form-group">
+              <label for="third-side">Third side</label>
+              <input type="text" class="form-control" id="third-side">
+            </div>
+
+            <button type="submit" class="btn">Is this a triangle?</button>
+          </form>
+        </div>
+        <div class="col-md-3">
+           <h3>Equalateral:</h3>
+          <ul id="eqTriangle">
+          </ul>
+          <div id="show-triangle">
+            <p><span class="equal-param"></span></p>
+          </div>
+        </div>
+          <div class="col-md-3">
+           <h3>Isosceles:</h3>
+          <ul id="isTriangle">
+          </ul>
+          <div id="show-triangle">
+            <p><span class="isos-param"></span></p>
+          </div>
+        </div>
+          <div class="col-md-3">
+           <h3>Scalene:</h3>
+          <ul id="scTriangle">
+          </ul>
+          <div id="show-triangle">
+            <p><span class="scal-param"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
